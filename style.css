@@ -6,14 +6,25 @@ body {
 }
 
 header {
-  background-color: #222;
+  background-color: #0E2148;
   color: white;
   padding: 20px;
   text-align: center;
 }
-
+h1 {
+  color: #E3D095;
+}
+h2{
+  color: #201e51;
+}
+p{
+  color: #ffffff;
+}
+.hero p{
+  color: #ffffff;
+}
 nav a {
-  color: white;
+  color: #ffffff;
   margin: 0 15px;
   text-decoration: none;
 }
@@ -24,7 +35,7 @@ nav a {
 }
 
 footer {
-  background-color: #222;
+  background-color: #0E2148;
   color: white;
   text-align: center;
   padding: 7px;
@@ -42,9 +53,14 @@ footer {
     padding: 20px;
   }
 }
+
+
 /* About Section */
+body {
+  background-color: #7965C1;
+}
 .abmain {
-color: #9e9e9ee1;
+ background-color: #7965C1;
 
 }
 .navbar ul {
@@ -52,7 +68,7 @@ text-align:left;
 }
 .about-section {
   padding: 40px 20px;
-  background-color: #9e9e9ee1;
+  background-color: #7965C1;;
 }
 .about-container {
   display: flex;
@@ -71,28 +87,29 @@ text-align:left;
   max-width: 250px;
   height: auto;
   border-radius: 10px;
-  border: 4px solid #000000;
+  border: 4px solid #0E2148;
 }
 .about-content {
   flex: 2 1 500px;
 }
 .about-content h2 ,.about-content h3 {
-  color: #000000;
+  color: #201e51;
   margin-bottom: 15px;
 }
-.about-content p {
+.about-content p ,.skills-list li{
   margin-bottom: 15px;
-  color: #242424;
+  color: #ffffff;
   font-size: 1.1rem;
 }
 .skills-list {
-  color: #242424;
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 20px;
+  list-style-type: disc;
+  padding-left: 40px;
+  margin: 20px 0;
+  text-align: left;
 }
 .skills-list li {
-  margin-bottom: 5px;
+  margin: 10px 0;
+  color: #fff;
 }
 .about-content, .btn { 
   color: #ffffff;
@@ -128,14 +145,33 @@ text-align:left;
   background-color: #007acc;
   color: white;
   cursor: pointer;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
 }
 .contact .btn:hover {
   background-color: #005a99;
 }
-.contact .socials p {
+.contact .socials p ,.contact p{
   margin-top: 10px;
+  color: #0E2148;
 }
 .contact .socials a {
-  color: #007acc;
+  color: #483AA0;
   text-decoration: none;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  margin: 0;
+}
+.navbar li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
 }
